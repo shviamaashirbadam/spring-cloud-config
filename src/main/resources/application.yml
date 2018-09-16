@@ -6,3 +6,5 @@ spring:
       server:
         git:
           uri: https://github.com/shviamaashirbadam/microservices-config
+  messages:
+    always-use-message-format: true
