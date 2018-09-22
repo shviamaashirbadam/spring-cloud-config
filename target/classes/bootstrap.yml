@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/shviamaashirbadam/microservices-config
-          username: shivam.aashir@gmail.com 
-          password: Nissan2@@9
+          uri: ${CONFIG_REPO_URL}
+          username: ${CONFIG_REPO_USERNAME}
+          password: ${CONFIG_REPO_PASSWORD}
   messages:
     always-use-message-format: true
