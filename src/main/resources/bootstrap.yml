@@ -2,7 +2,7 @@ server:
   port: 8888
 spring:
   cloud:
-    config:
+   config:
       server:
         git:
           uri: ${CONFIG_REPO_URL}
